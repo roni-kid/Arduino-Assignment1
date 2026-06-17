@@ -3,6 +3,7 @@ const int ledPin = 13;
 
 void flashLED(int times) {
   int i = times;  
+  
   while (i > 0) {
     digitalWrite(ledPin, HIGH);
     delay(200);
@@ -17,7 +18,6 @@ void setup() {
 
   pinMode(ledPin, OUTPUT);
   Serial.begin(9600);
-
   Serial.println("\n=== Smart Countdown Starting ===");
 
   while (count > 0) {
@@ -27,7 +27,6 @@ void setup() {
     delay(1000);
     count = count - 1;
   
-    
 }
 
   digitalWrite(ledPin, HIGH);
@@ -35,6 +34,7 @@ void setup() {
   digitalWrite(ledPin, LOW);
   Serial.println( "=== Countdown Complete ===" );
 }
+
 
 void loop() {
   // empty
