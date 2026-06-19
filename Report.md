@@ -1,4 +1,4 @@
-**Task 1**
+*Task 1*
 
 
 **Q1.** `int` holds whole numbers (e.g. `21`). `float` holds decimals (e.g. `1.75`). Use `int` for pin numbers or counts; use `float` for voltages or measurements.
@@ -9,7 +9,7 @@
 
 ---
 
-**Task 2**
+*Task 2*
 
 
 **Q1.** `pinMode()` only needs to run once — it configures the pin, not controls it. Putting it in `loop()` would re-configure it thousands of times per second for no reason.
@@ -20,7 +20,7 @@
 
 ---
 
-**Task 3**
+*Task 3*
 
 
 **Q1.** A parameter is an input variable a function expects when called. `waitTime` receives whatever number you pass in — like `blinkOnce(100)` sets `waitTime` to `100` inside the function.
@@ -31,7 +31,7 @@
 
 ---
 
-**Task 4**
+*Task 4*
 
 
 **Q1.** `counter = counter - 1` decreases the counter each iteration so the condition `counter > 0` eventually becomes false and the loop exits. Without it, `counter` stays at 5 forever — infinite loop.
@@ -42,9 +42,7 @@
 
 ---
 
-
-
-**Task 5**
+*Task 5*
 
 
 **Q1.** Paste your final working code — that's the last version you just submitted. Copy it exactly into your report.
