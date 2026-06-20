@@ -2,7 +2,7 @@
 
 **Course:** Programming C++ for Engineers Using Arduino  
 **Institution:** Ghana Communication Technology University (GCTU)  
-**Student:** [Your Full Name] — [Your Index Number]
+**Student:** Aaron Andoh Dadson Baidoo — 2526401387
 
 ---
 
